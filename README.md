@@ -17,20 +17,38 @@ FloatingTextButton...
 
 Tek adımda FloatingTextButton kullanımı:
 
+## Setup
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+```
+dependencies {
+    implementation 'com.github.memishood:FloatingTextButton:2.0'
+}
+```
+
 ## XML
 
 ```xml
-<tr.com.emrememis.lynglapp.Views.FloatingTextButton
+<tr.com.emrememis.library.FloatingTextButton
         android:id="@+id/floatingTextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         app:label="Fotoğraf Ekle"
         app:src="@drawable/ic_camera_enhance_white_24dp"
         app:textClickable="true"
         app:animation="true"
         app:btnColor="#9C27B0"
-        app:btnRippleColor="#FFFFFF"/>
+        app:btnRippleColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 ```
 ## Params
 
