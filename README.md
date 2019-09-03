@@ -13,9 +13,9 @@ FloatingTextButton...
     * özünde olduğu gibi yine app taglarını kullanarak xml dosyanızda istediğiniz resim dosyasını src olarak belirtebilirsiniz
  * Text'e click event ayarlama
     * eğer isterseniz yine app taglarını kullanarak xml dosyanızda verdiğiniz text'e click listener belirtebilirsiniz
-    
-    Tek adımda FloatingTextButton kullanımı
 -------------------
+
+Tek adımda FloatingTextButton kullanımı:
 
 ## XML
 
