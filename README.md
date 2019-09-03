@@ -1,6 +1,7 @@
 FloatingTextButton
 ========
 FloatingTextButton Android için geliştirdiğim zengin bir floating action button yapısıdır.<br/>
+
 <img src="image.png" width="240" height="480"/>
 
 FloatingTextButton...
@@ -15,7 +16,7 @@ FloatingTextButton...
     * eğer isterseniz yine app taglarını kullanarak xml dosyanızda verdiğiniz text'e click listener belirtebilirsiniz
 -------------------
 
-Tek adımda FloatingTextButton kullanımı:
+Birkaç adımda FloatingTextButton kullanımı:
 
 ## Setup
 ```
