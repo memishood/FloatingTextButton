@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="5dp"/>
+
+    <tr.com.emrememis.library.QuickSandRegularTextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:background="@drawable/floating_text_button_background"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
