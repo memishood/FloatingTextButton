@@ -1,7 +1,7 @@
 FloatingTextButton
 ========
 FloatingTextButton Android için geliştirdiğim zengin bir floating action button yapısıdır.<br/>
-<img src="image.png" width="360" height="520"/>
+<img src="image.png" width="240" height="480"/>
 
 FloatingTextButton...
 
