@@ -56,7 +56,8 @@ MainActivity'de yapmanız gerekenler
             public void clicked(@Nullable View view) {
                 Log.d(TAG,"clicked");
             }
-        }); ```
+        }); 
+```
 
 
 
