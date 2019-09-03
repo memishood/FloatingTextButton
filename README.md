@@ -43,8 +43,9 @@ Tek adımda FloatingTextButton kullanımı:
 | app:rippleColor | @color/your_color |
 | app:textClickable | true |
 
-    MainActivity'de yapmanız gerekenler
 -------------------
+
+MainActivity'de yapmanız gerekenler
 
 ## Java
 
