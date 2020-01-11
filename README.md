@@ -37,19 +37,15 @@ dependencies {
 
 ```xml
 <tr.com.emrememis.library.FloatingTextButton
-        android:id="@+id/floatingTextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:label="Fotoğraf Ekle"
-        app:src="@drawable/ic_camera_enhance_white_24dp"
-        app:textClickable="true"
-        app:animation="true"
-        app:btnColor="#9C27B0"
-        app:btnRippleColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:id="@+id/floatingTextButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:label="Fotoğraf Ekle"
+    app:src="@drawable/ic_camera_enhance_white_24dp"
+    app:textClickable="true"
+    app:animation="true"
+    app:btnColor="#9C27B0"
+    app:btnRippleColor="#FFFFFF" />
 ```
 ## Params
 
@@ -57,10 +53,10 @@ dependencies {
 | :------: | :------: |
 | app:src | @drawable/your_image |
 | app:label | @string/your_text |
-| app:animation | true |
+| app:animation | booelan |
 | app:btnColor | @color/your_color |
 | app:rippleColor | @color/your_color |
-| app:textClickable | true |
+| app:textClickable | boolean |
 
 -------------------
 
